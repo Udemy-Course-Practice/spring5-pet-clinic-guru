@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--/*@thymesVar id="owner" type="com.spring5.petclinic.model.Owner"*/-->
+<table>
+    <thead>
+      <th>ID</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+    </thead>
+  <tbody>
+  <tr th:each="owner : ${owners}">
+    <td th:text="${owner?.getId()}"></td>
+    <td th:text="${owner?.getFirstName()}"></td>
+    <td th:text="${owner?.getLastName()}"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>

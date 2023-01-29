@@ -1,4 +1,4 @@
-package com.spring5.petcinic.contollers;
+package com.spring5.petclinic.contollers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
