@@ -30,4 +30,8 @@ public abstract class AbstractMapService<T,ID> {
         map.entrySet().removeIf(entry -> entry.getValue().equals(object));
     }
 
+    public Map<ID,T> getData(){
+        return this.map;
+    }
+
 }

@@ -1,11 +1,11 @@
 package com.spring5.petclinic.map;
 
 import com.spring5.petclinic.model.Pet;
-import com.spring5.petclinic.services.CrudService;
+import com.spring5.petclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetMapService extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long>{
+public class PetMapService extends AbstractMapService<Pet, Long> implements PetService<Pet, Long> {
     @Override
     public Pet save(Pet object) {
         return super.save(object.getId(),object);
