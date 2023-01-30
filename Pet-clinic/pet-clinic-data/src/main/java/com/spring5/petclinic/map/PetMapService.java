@@ -9,7 +9,7 @@ import java.util.Set;
 public class PetMapService extends AbstractMapService<Pet, Long> implements PetService<Pet, Long> {
     @Override
     public Pet save(Pet object) {
-        return super.save(object.getId(),object);
+        return super.save(object);
     }
 
     @Override
