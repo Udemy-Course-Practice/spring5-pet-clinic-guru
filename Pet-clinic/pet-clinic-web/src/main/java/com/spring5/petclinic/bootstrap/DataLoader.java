@@ -1,7 +1,5 @@
 package com.spring5.petclinic.bootstrap;
 
-import com.spring5.petclinic.map.OwnerMapService;
-import com.spring5.petclinic.map.VetMapService;
 import com.spring5.petclinic.model.Owner;
 import com.spring5.petclinic.model.Vet;
 import com.spring5.petclinic.services.OwnerService;

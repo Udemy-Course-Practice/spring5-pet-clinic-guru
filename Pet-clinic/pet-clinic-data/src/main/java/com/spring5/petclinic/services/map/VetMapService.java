@@ -1,4 +1,4 @@
-package com.spring5.petclinic.map;
+package com.spring5.petclinic.services.map;
 
 import com.spring5.petclinic.model.Vet;
 import com.spring5.petclinic.services.VetService;
